@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 @SpringBootApplication
 class CodenarcApplication {
 
-	static void main(String[] args) {
-		SpringApplication.run CodenarcApplication, args
-	}
+    static void main(String[] args) {
+        SpringApplication.run CodenarcApplication, args
+    }
 }
