@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+ - oraclejdk9
+
+os:
+  - linux
+
+cache:
+  directories:
+  - $HOME/.gradle
+
+build: ./gradlew clean build --parallel
