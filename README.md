@@ -4,3 +4,5 @@
 
 This build is failing because of some issues. 
 [Please see codenarc issue link](https://github.com/CodeNarc/CodeNarc/issues/316)
+
+[Please see gradle issue link](https://github.com/gradle/gradle/issues/4219)
