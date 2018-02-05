@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '2.0.0.M7'
+        springBootVersion = '2.0.0.RC1'
         spockVersion = '1.1-groovy-2.4'
     }
     repositories {
@@ -10,7 +10,6 @@ buildscript {
     }
     dependencies {
         classpath "org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}"
-        classpath 'javax.xml.bind:jaxb-api:2.3.0'
     }
 }
 
@@ -33,7 +32,11 @@ repositories {
 
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
     compile 'org.codehaus.groovy:groovy'
+
+    codenarc 'javax.xml.bind:jaxb-api:2.3.0', 'org.codenarc:CodeNarc:1.1'
 
     testCompile "org.spockframework:spock-core:$spockVersion"
     testCompile "org.spockframework:spock-spring:$spockVersion"

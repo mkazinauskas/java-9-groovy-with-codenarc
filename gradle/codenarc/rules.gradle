@@ -176,7 +176,7 @@ ruleset {
     ClosureStatementOnOpeningLineOfMultipleLineClosure
     ConsecutiveBlankLines
     FileEndsWithoutNewline
-    Indentation
+//    Indentation
     LineLength
     MissingBlankLineAfterImports
     MissingBlankLineAfterPackage
@@ -257,7 +257,7 @@ ruleset {
     DuplicateImport
     ImportFromSamePackage
     ImportFromSunPackages
-    MisorderedStaticImports
+//    MisorderedStaticImports
     NoWildcardImports
     UnnecessaryGroovyImport
     UnusedImport
@@ -269,30 +269,30 @@ ruleset {
     JdbcStatementReference
 
     // rulesets/junit.xml
-    ChainedTest
-    CoupledTestCase
-    JUnitAssertAlwaysFails
-    JUnitAssertAlwaysSucceeds
-    JUnitFailWithoutMessage
-    JUnitLostTest
-    JUnitPublicField
-    JUnitPublicNonTestMethod
-    JUnitPublicProperty
-    JUnitSetUpCallsSuper
-    JUnitStyleAssertions
-    JUnitTearDownCallsSuper
-    JUnitTestMethodWithoutAssert
-    JUnitUnnecessarySetUp
-    JUnitUnnecessaryTearDown
-    JUnitUnnecessaryThrowsException
-    SpockIgnoreRestUsed
-    UnnecessaryFail
-    UseAssertEqualsInsteadOfAssertTrue
-    UseAssertFalseInsteadOfNegation
-    UseAssertNullInsteadOfAssertEquals
-    UseAssertSameInsteadOfAssertTrue
-    UseAssertTrueInsteadOfAssertEquals
-    UseAssertTrueInsteadOfNegation
+//    ChainedTest
+//    CoupledTestCase
+//    JUnitAssertAlwaysFails
+//    JUnitAssertAlwaysSucceeds
+//    JUnitFailWithoutMessage
+//    JUnitLostTest
+//    JUnitPublicField
+//    JUnitPublicNonTestMethod
+//    JUnitPublicProperty
+//    JUnitSetUpCallsSuper
+//    JUnitStyleAssertions
+//    JUnitTearDownCallsSuper
+//    JUnitTestMethodWithoutAssert
+//    JUnitUnnecessarySetUp
+//    JUnitUnnecessaryTearDown
+//    JUnitUnnecessaryThrowsException
+//    SpockIgnoreRestUsed
+//    UnnecessaryFail
+//    UseAssertEqualsInsteadOfAssertTrue
+//    UseAssertFalseInsteadOfNegation
+//    UseAssertNullInsteadOfAssertEquals
+//    UseAssertSameInsteadOfAssertTrue
+//    UseAssertTrueInsteadOfAssertEquals
+//    UseAssertTrueInsteadOfNegation
 
     // rulesets/logging.xml
     LoggerForDifferentClass
@@ -314,7 +314,7 @@ ruleset {
     FieldName
     InterfaceName
     InterfaceNameSameAsSuperInterface
-    MethodName
+//    MethodName
     ObjectOverrideMisspelledMethodName
     PackageName
     PackageNameMatchesFilePath
