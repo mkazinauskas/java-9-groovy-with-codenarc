@@ -1,8 +1,5 @@
 [![Build Status](https://travis-ci.org/modestukasai/groovy-codenarc-java-9.svg?branch=master)](https://travis-ci.org/modestukasai/groovy-codenarc-java-9)
 
-# GROOVY CODENARC WITH JAVA 9
+# JAVA 9 AND GROOVY INTEGRATION WITH CODENARC
 
-This build is failing because of some issues. 
-[Please see codenarc issue link](https://github.com/CodeNarc/CodeNarc/issues/316)
-
-[Please see gradle issue link](https://github.com/gradle/gradle/issues/4219)
+This is sample project how java 9 codenarc integration works.
