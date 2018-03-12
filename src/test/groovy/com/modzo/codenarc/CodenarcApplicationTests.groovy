@@ -15,7 +15,7 @@ import static org.springframework.http.HttpStatus.OK
 class CodenarcApplicationTests extends Specification {
 
     @Autowired
-    TestRestTemplate restTemplate
+    private TestRestTemplate restTemplate
 
     void 'should load application context'() {
         when:
@@ -24,5 +24,4 @@ class CodenarcApplicationTests extends Specification {
             response.statusCode == OK
             response.body == 'Index page'
     }
-
 }

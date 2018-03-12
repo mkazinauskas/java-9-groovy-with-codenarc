@@ -130,10 +130,10 @@ ruleset {
     ToStringReturnsNull
 
     // rulesets/dry.xml
-    DuplicateListLiteral
-    DuplicateMapLiteral
-    DuplicateNumberLiteral
-    DuplicateStringLiteral
+//    DuplicateListLiteral
+//    DuplicateMapLiteral
+//    DuplicateNumberLiteral
+//    DuplicateStringLiteral
 
     // rulesets/enhanced.xml
     CloneWithoutCloneable
@@ -175,24 +175,30 @@ ruleset {
 //    ClassJavadoc
     ClosureStatementOnOpeningLineOfMultipleLineClosure
     ConsecutiveBlankLines
-    FileEndsWithoutNewline
+//    FileEndsWithoutNewline
 //    Indentation
     LineLength
     MissingBlankLineAfterImports
     MissingBlankLineAfterPackage
     SpaceAfterCatch
-    SpaceAfterClosingBrace
+    SpaceAfterClosingBrace {
+        checkClosureMapEntryValue = false
+    }
     SpaceAfterComma
     SpaceAfterFor
     SpaceAfterIf
-    SpaceAfterOpeningBrace
+    SpaceAfterOpeningBrace {
+        ignoreEmptyBlock = true
+    }
     SpaceAfterSemicolon
     SpaceAfterSwitch
     SpaceAfterWhile
     SpaceAroundClosureArrow
     SpaceAroundMapEntryColon
     SpaceAroundOperator
-    SpaceBeforeClosingBrace
+    SpaceBeforeClosingBrace {
+        ignoreEmptyBlock = true
+    }
     SpaceBeforeOpeningBrace
     TrailingWhitespace
 
@@ -258,7 +264,7 @@ ruleset {
     ImportFromSamePackage
     ImportFromSunPackages
 //    MisorderedStaticImports
-    NoWildcardImports
+//    NoWildcardImports
     UnnecessaryGroovyImport
     UnusedImport
 
@@ -269,30 +275,30 @@ ruleset {
     JdbcStatementReference
 
     // rulesets/junit.xml
-//    ChainedTest
-//    CoupledTestCase
-//    JUnitAssertAlwaysFails
-//    JUnitAssertAlwaysSucceeds
-//    JUnitFailWithoutMessage
-//    JUnitLostTest
-//    JUnitPublicField
+    ChainedTest
+    CoupledTestCase
+    JUnitAssertAlwaysFails
+    JUnitAssertAlwaysSucceeds
+    JUnitFailWithoutMessage
+    JUnitLostTest
+    JUnitPublicField
 //    JUnitPublicNonTestMethod
-//    JUnitPublicProperty
-//    JUnitSetUpCallsSuper
-//    JUnitStyleAssertions
-//    JUnitTearDownCallsSuper
-//    JUnitTestMethodWithoutAssert
-//    JUnitUnnecessarySetUp
-//    JUnitUnnecessaryTearDown
-//    JUnitUnnecessaryThrowsException
-//    SpockIgnoreRestUsed
-//    UnnecessaryFail
-//    UseAssertEqualsInsteadOfAssertTrue
-//    UseAssertFalseInsteadOfNegation
-//    UseAssertNullInsteadOfAssertEquals
-//    UseAssertSameInsteadOfAssertTrue
-//    UseAssertTrueInsteadOfAssertEquals
-//    UseAssertTrueInsteadOfNegation
+    JUnitPublicProperty
+    JUnitSetUpCallsSuper
+    JUnitStyleAssertions
+    JUnitTearDownCallsSuper
+    JUnitTestMethodWithoutAssert
+    JUnitUnnecessarySetUp
+    JUnitUnnecessaryTearDown
+    JUnitUnnecessaryThrowsException
+    SpockIgnoreRestUsed
+    UnnecessaryFail
+    UseAssertEqualsInsteadOfAssertTrue
+    UseAssertFalseInsteadOfNegation
+    UseAssertNullInsteadOfAssertEquals
+    UseAssertSameInsteadOfAssertTrue
+    UseAssertTrueInsteadOfAssertEquals
+    UseAssertTrueInsteadOfNegation
 
     // rulesets/logging.xml
     LoggerForDifferentClass
@@ -387,7 +393,7 @@ ruleset {
     UnnecessaryPackageReference
     UnnecessaryParenthesesForMethodCallWithClosure
     UnnecessaryPublicModifier
-    UnnecessaryReturnKeyword
+//    UnnecessaryReturnKeyword
     UnnecessarySafeNavigationOperator
     UnnecessarySelfAssignment
     UnnecessarySemicolon
@@ -406,6 +412,4 @@ ruleset {
     UnusedPrivateMethod
     UnusedPrivateMethodParameter
     UnusedVariable
-
-
 }
